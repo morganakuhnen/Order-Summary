@@ -53,9 +53,15 @@ main .informations {
 
 main .informations .music-price {
     display: flex;
-    flex-direction: column;
     align-items: center;
-}
+  }
+  
+  main .informations .price {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  
 
 main .informations img {
     width: 48px;
